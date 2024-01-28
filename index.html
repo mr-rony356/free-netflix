@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>body
+    {
+        position: relative;
+    }
+        * {
+            padding: 0;
+            margin: 0;
+
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .main {
+            height: 100vh;
+            background-size: cover;
+            /* filter: brightness(50%); */
+
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 176px;
+        }
+
+        .header a {
+            color: white;
+            background-color: rgb(239, 35, 45);
+            border-radius: 8px;
+            padding: 8px 14px;
+
+        }
+
+        .middle {
+            text-align: center;
+            color: white;
+            font-family: sans-serif;
+            margin: 120px 0;
+        }
+
+        .middle h1 {
+            font-size: 3rem;
+            font-weight: 900;
+
+        }
+
+        .middle p {
+            font-size: 1.5rem;
+            font-weight: 400;
+
+        }
+
+        .middle h3 {
+            font-size: 1.25rem;
+            font-weight: 400;
+            line-height: 1.5;
+        }
+        .email{
+            display: flex;
+            justify-content: center;
+            
+        }
+        .email input, .email button{
+            padding: 15px 8px;
+            margin: 3px;
+        }
+        .email input{
+            width: 300px;
+        }
+        .email button{
+            width: 170px;
+            background-color: rgb(228, 40, 50);
+        }
+        .bannner{
+            height: 100vh;
+        }
+        .bannner img{
+            height: 100vh;
+            object-fit: cover;
+            width: 100%;
+            filter: brightness(35%);
+        }
+        .main{
+            position: absolute;
+            top: 0;
+            z-index: 999;
+            width: 100vw;
+            
+        }
+        h1,p,h3{
+            margin: 20px 0;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="bannner" >
+        <img src="./bg.jpg" alt="">
+
+    </div>
+
+    <section class="main">
+        <div class="header">
+            <div class="logo">
+                <img src="./Netflix.png" alt="" height="80px" srcset="">
+
+            </div>
+            <div class="login"><a href="/">Sign in</a>
+            </div>
+        </div>
+        <div class="middle">
+            <h1>
+
+                Unlimited movies, TV shows, and more
+            </h1>
+            <p>
+                Watch anywhere. Cancel anytime.
+            </p>
+            <h3>
+                Ready to watch? Enter your email to create or restart your membership.
+            </h3>
+            <div class="email">
+                <input placeholder="Email address" type="email" name="" id="">
+                <button type="submit"> Get Started ></button>
+            </div>
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
